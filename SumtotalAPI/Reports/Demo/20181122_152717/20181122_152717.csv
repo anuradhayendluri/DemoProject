@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.102,,2018-11-22 15:27:19,2018-11-22 15:27:51,32.150s,FAILED
+,,,,,,
+Test Cases/CORE/TestCases/Demo/Create Community,Chrome 70.0.3538.102,,2018-11-22 15:27:20,2018-11-22 15:27:23,3.085s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 70.0.3538.102,,2018-11-22 15:27:20,2018-11-22 15:27:20,0.039s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(CORE/Library/Demo/Create Community), [""communityName"":data.getValue(""CommunityName"", 1), ""CommunityDesc"":data.getValue(""CommunityDesc"", 1), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-22 15:27:20,2018-11-22 15:27:23,2.536s,FAILED
+,,,,,,
+Test Cases/CORE/TestCases/Demo/EsbToken,Chrome 70.0.3538.102,,2018-11-22 15:27:23,2018-11-22 15:27:50,27.074s,PASSED
+callTestCase,Chrome 70.0.3538.102,,2018-11-22 15:27:23,2018-11-22 15:27:50,26.723s,PASSED
+,,,,,,
+Test Cases/CORE/TestCases/Demo/Get all Communities,Chrome 70.0.3538.102,,2018-11-22 15:27:50,2018-11-22 15:27:51,1.457s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 70.0.3538.102,,2018-11-22 15:27:50,2018-11-22 15:27:50,0.004s,PASSED
+Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Community/Get All Communities),Chrome 70.0.3538.102,,2018-11-22 15:27:50,2018-11-22 15:27:50,0.006s,PASSED
+Statement - request.setHttpHeaderProperties(CustomKeywords.validations.Assertions.AddHeaders()),Chrome 70.0.3538.102,,2018-11-22 15:27:50,2018-11-22 15:27:50,0.001s,PASSED
+Statement - res = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request),Chrome 70.0.3538.102,,2018-11-22 15:27:50,2018-11-22 15:27:51,1.233s,PASSED
+verifyResponseStatusCode,Chrome 70.0.3538.102,,2018-11-22 15:27:51,2018-11-22 15:27:51,0.001s,FAILED

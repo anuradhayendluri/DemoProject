@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demo" time="31" tests="2" failures="1" errors="0">
+   <testsuite name="demo" tests="2" failures="1" errors="0" time="31" timestamp="2018-11-22 15:46:31" hostname="AAYENDLURI - AnuradhaYend1IN.amr.smtf.ds" id="Test Suites/DEMO/demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sharedkataloncode\\SumtotalAPI\\Reports\\DEMO\\demo\\20181122_154628"/>
+         <property name="logFiles" value="D:\\Sharedkataloncode\\SumtotalAPI\\Reports\\DEMO\\demo\\20181122_154628\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AAYENDLURI - AnuradhaYend1IN.amr.smtf.ds"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.144.23.34"/>
+         <property name="sessionId" value="fdc02af4b8a8394983435bd58888572d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/DEMO/TestCases/Demo/EsbToken" classname="Test Cases/DEMO/TestCases/Demo/EsbToken" status="PASSED">
+         <system-out><![CDATA[2018-11-22 15:46:31 - [TEST_CASE][PASSED] - Test Cases/DEMO/TestCases/Demo/EsbToken: Test Cases/DEMO/TestCases/Demo/EsbToken
+
+2018-11-22 15:46:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/DEMO/Common/EsbToken' successfully
+
+2018-11-22 15:46:32 - [TEST_CASE][PASSED] - Test Cases/DEMO/Common/EsbToken: Test Cases/DEMO/Common/EsbToken
+
+2018-11-22 15:46:32 - [TEST_STEP][PASSED] - dbConnectionPackage.DBConnectionKeyword.CloseConnections: dbConnectionPackage.DBConnectionKeyword.CloseConnections is PASSED
+
+2018-11-22 15:46:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-22 15:46:42 - [MESSAGE][PASSED] - dbConnectionPackage.DBConnectionKeyword.CloseConnections is PASSED
+
+2018-11-22 15:46:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-22 15:46:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-22 15:46:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ad13sales.sumtotaldevelopment.net' successfully
+
+2018-11-22 15:46:50 - [MESSAGE][PASSED] - Navigate to 'https://ad13sales.sumtotaldevelopment.net' successfully
+
+2018-11-22 15:46:50 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-22 15:46:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-22 15:46:55 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/DEMO/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte'
+
+2018-11-22 15:46:55 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/DEMO/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte'
+
+2018-11-22 15:46:55 - [TEST_STEP][PASSED] - setText: Text 'Think|Demo' is set on object 'Object Repository/DEMO/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte_1'
+
+2018-11-22 15:46:55 - [MESSAGE][PASSED] - Text 'Think|Demo' is set on object 'Object Repository/DEMO/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte_1'
+
+2018-11-22 15:46:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DEMO/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte_2' is clicked on
+
+2018-11-22 15:46:58 - [MESSAGE][PASSED] - Object: 'Object Repository/DEMO/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte_2' is clicked on
+
+2018-11-22 15:46:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-22 15:46:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-22 15:46:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/DEMO/EsbToken/Page_Home - SumTotal/i_fa fa-user' is present
+
+2018-11-22 15:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/DEMO/EsbToken/Page_Home - SumTotal/i_fa fa-user' is present
+
+2018-11-22 15:46:59 - [TEST_STEP][PASSED] - Statement - s = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript("return document.documentElement.innerHTML;", null): Execute JavaScript 'return document.documentElement.innerHTML;' successfully
+
+2018-11-22 15:47:00 - [MESSAGE][PASSED] - Execute JavaScript 'return document.documentElement.innerHTML;' successfully
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - g_EsbToken = CustomKeywords.validations.Assertions.GetToken(s): validations.Assertions.GetToken is PASSED
+
+2018-11-22 15:47:00 - [MESSAGE][PASSED] - validations.Assertions.GetToken is PASSED
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - comment: esbeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93d3cuc3VtdG90YWxzeXN0ZW1zLmNvbVwvY29yZXVpIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJBRDEzX1NBTEVTX1RFU1QiLCJleHAiOjYzNjc4NTAwMjA5MDQ5OTQyNSwibmJmIjowLCJpYXQiOjYzNjc4NDc4NjA5NDA5MzA3NSwiYnNlc3Npb25pZCI6IjJmZGM2NTdhZjA3YjRiYzVhNzZlOWYwZjI4NjQwMjY0IiwiZXVzcmlkIjpudWxsLCJldXNybiI6bnVsbCwiY3VsIjoiZW4tVVMiLCJ1c2VyaWQiOiIxIiwiZ3Vlc3RhY2NvdW50IjowLCJwZXJzb25pZCI6LTEsImlzZXh0ZXJuYWwiOmZhbHNlLCJycGtleSI6IkVMSVhIUlVJIn0.8A4EE7D8E443F2FB69BBADEC7432596F553A99021E16B1A14E2E4073103D5FEF
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - stokenindex = s.lastIndexOf("search:{") + "search:{".length() + 1: null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - etokenindex = s.lastIndexOf("social:{") + "social:{".length() + 1: null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - searchToken = s.substring(stokenindex, etokenindex): null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - g_LMJwtToken = CustomKeywords.validations.Assertions.GetToken(searchToken): validations.Assertions.GetToken is PASSED
+
+2018-11-22 15:47:00 - [MESSAGE][PASSED] - validations.Assertions.GetToken is PASSED
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - comment: esbsearcheyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93d3cuc3VtdG90YWxzeXN0ZW1zLmNvbVwvY29yZXVpIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJBRDEzX1NBTEVTX1RFU1QiLCJleHAiOjYzNjc4NTAwMjA5MDQ5OTQyNSwibmJmIjowLCJpYXQiOjYzNjc4NDc4NjA5NDA5MzA3NSwiYnNlc3Npb25pZCI6IjJmZGM2NTdhZjA3YjRiYzVhNzZlOWYwZjI4NjQwMjY0IiwiZXVzcmlkIjpudWxsLCJldXNybiI6bnVsbCwiY3VsIjoiZW4tVVMiLCJ1c2VyaWQiOiIxIiwiZ3Vlc3RhY2NvdW50IjowLCJwZXJzb25pZCI6LTEsImlzZXh0ZXJuYWwiOmZhbHNlLCJycGtleSI6IkVMSVhIUlVJIn0.8A4EE7D8E443F2FB69BBADEC7432596F553A99021E16B1A14E2E4073103D5FEF
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - decoded = new java.lang.String(javax.xml.bind.DatatypeConverter.parseBase64Binary(internal.GlobalVariable.g_EsbToken)): null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - decoded = decoded.substring(decoded.indexOf("}{") + 1): null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - comment: ESB DECRYPTED {"iss":"http:\/\/www.sumtotalsystems.com\/coreui","sub":"admin","aud":"AD13_SALES_TEST","exp":636785002090499425,"nbf":0,"iat":636784786094093075,"bsessionid":"2fdc657af07b4bc5a76e9f0f28640264","eusrid":null,"eusrn":null,"cul":"en-US","userid":"1","guestaccount":0,"personid":-1,"isexternal":false,"rpkey":"ELIXHRUI"}<��?���Pz�@@��}���y�p=�M�^��xa8ӽ��p�
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - object = jsonSlurper.parseText(decoded.toString()): null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - userId = personid: null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - userName = sub: null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - g_UserID = userId: null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - Statement - g_UserName = userName: null
+
+2018-11-22 15:47:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-22 15:47:01 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-22 15:47:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DEMO/Common/EsbToken' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DEMO/TestCases/Demo/Create Community" classname="Test Cases/DEMO/TestCases/Demo/Create Community" status="PASSED">
+         <system-out><![CDATA[2018-11-22 15:47:01 - [TEST_CASE][PASSED] - Test Cases/DEMO/TestCases/Demo/Create Community: Test Cases/DEMO/TestCases/Demo/Create Community
+
+2018-11-22 15:47:01 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-22 15:47:01 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(DEMO/Library/Demo/Create Community), ["communityName":data.getValue("CommunityName", 1), "CommunityDesc":data.getValue("CommunityDesc", 1), "allowDiscussionBoards":true, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/DEMO/Library/Demo/Create Community' successfully
+
+2018-11-22 15:47:01 - [TEST_CASE][PASSED] - Test Cases/DEMO/Library/Demo/Create Community: Test Cases/DEMO/Library/Demo/Create Community
+
+2018-11-22 15:47:01 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DEMO/Community/Create Community, [host:internal.GlobalVariable.g_URL, CommunityName:((" + communityName) + "), CommunityDesc:((" + CommunityDesc) + "), allowDiscussionBoards:((" + allowDiscussionBoards) + "), ... ]): Finding Test Object with id 'Object Repository/DEMO/Community/Create Community'
+
+2018-11-22 15:47:01 - [TEST_STEP][PASSED] - Statement - request.setHttpHeaderProperties(CustomKeywords.validations.Assertions.AddHeaders()): validations.Assertions.AddHeaders is PASSED
+
+2018-11-22 15:47:01 - [MESSAGE][PASSED] - validations.Assertions.AddHeaders is PASSED
+
+2018-11-22 15:47:01 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request): Send request successfully
+
+2018-11-22 15:47:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-22 15:47:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-22 15:47:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-22 15:47:02 - [TEST_STEP][PASSED] - Statement - return response: null
+
+2018-11-22 15:47:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DEMO/Library/Demo/Create Community' successfully
+
+2018-11-22 15:47:02 - [TEST_STEP][PASSED] - Statement - CommunityID = id: validations.Assertions.GetAttribute is PASSED
+
+2018-11-22 15:47:02 - [MESSAGE][PASSED] - validations.Assertions.GetAttribute is PASSED
+
+2018-11-22 15:47:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-22 15:47:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-22 15:47:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-22 15:47:02 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DEMO/TestCases/Demo/Get all Communities" classname="Test Cases/DEMO/TestCases/Demo/Get all Communities" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '503')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540372560886.run(Script1540372560886.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542881788806.run(TempTestSuite1542881788806.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-22 15:47:02 - [TEST_CASE][FAILED] - Test Cases/DEMO/TestCases/Demo/Get all Communities: Test Cases/DEMO/TestCases/Demo/Get all Communities FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '503')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540372560886.run(Script1540372560886.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542881788806.run(TempTestSuite1542881788806.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-22 15:47:02 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-22 15:47:02 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DEMO/Community/Get All Communities): Finding Test Object with id 'Object Repository/DEMO/Community/Get All Communities'
+
+2018-11-22 15:47:02 - [TEST_STEP][PASSED] - Statement - request.setHttpHeaderProperties(CustomKeywords.validations.Assertions.AddHeaders()): validations.Assertions.AddHeaders is PASSED
+
+2018-11-22 15:47:02 - [MESSAGE][PASSED] - validations.Assertions.AddHeaders is PASSED
+
+2018-11-22 15:47:02 - [TEST_STEP][PASSED] - Statement - res = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request): Send request successfully
+
+2018-11-22 15:47:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-22 15:47:02 - [TEST_STEP][FAILED] - verifyResponseStatusCode: Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '503')
+
+2018-11-22 15:47:02 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '503'
+
+2018-11-22 15:47:02 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '503')]]></system-out>
+         <system-err><![CDATA[2018-11-22 15:47:02 - [TEST_CASE][FAILED] - Test Cases/DEMO/TestCases/Demo/Get all Communities: Test Cases/DEMO/TestCases/Demo/Get all Communities FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '503')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540372560886.run(Script1540372560886.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542881788806.run(TempTestSuite1542881788806.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-22 15:46:31 - [TEST_SUITE][FAILED] - demo: Test Cases/DEMO/TestCases/Demo/Get all Communities FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '503')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540372560886.run(Script1540372560886.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542881788806.run(TempTestSuite1542881788806.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-22 15:46:31 - [TEST_SUITE][FAILED] - demo: Test Cases/DEMO/TestCases/Demo/Get all Communities FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '503')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540372560886.run(Script1540372560886.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542881788806.run(TempTestSuite1542881788806.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EsbToken</name>
+   <tag></tag>
+   <comment>esb&quot; + GlobalVariable.g_EsbToken
+esbsearch&quot; + GlobalVariable.g_LMJwtToken</comment>
+   <testCaseGuid>e20855e4-05be-4e90-98b6-c0fb031b5268</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0cad0498-afb6-4189-b8b8-7a0b115d5313</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cc9122a6-5569-4b46-854e-c26633b5bb7e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

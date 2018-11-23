@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.77,,2018-11-06 12:25:12,2018-11-06 12:25:52,40.436s,PASSED
+,,,,,,
+Test Cases/TestCases/Demo/EsbToken,Chrome 70.0.3538.77,,2018-11-06 12:25:13,2018-11-06 12:25:48,34.934s,PASSED
+callTestCase,Chrome 70.0.3538.77,,2018-11-06 12:25:13,2018-11-06 12:25:48,34.367s,PASSED
+,,,,,,
+Test Cases/TestCases/Demo/Create Community,Chrome 70.0.3538.77,,2018-11-06 12:25:48,2018-11-06 12:25:49,1.859s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 70.0.3538.77,,2018-11-06 12:25:48,2018-11-06 12:25:48,0.024s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Demo/Create Community), [""communityName"":data.getValue(""CommunityName"", 1), ""CommunityDesc"":data.getValue(""CommunityDesc"", 1), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 70.0.3538.77,,2018-11-06 12:25:48,2018-11-06 12:25:49,1.494s,PASSED
+Statement - CommunityID = id,Chrome 70.0.3538.77,,2018-11-06 12:25:49,2018-11-06 12:25:49,0.014s,PASSED
+verifyResponseStatusCode,Chrome 70.0.3538.77,,2018-11-06 12:25:49,2018-11-06 12:25:49,0.003s,PASSED
+verifyElementPropertyValue,Chrome 70.0.3538.77,,2018-11-06 12:25:49,2018-11-06 12:25:49,0.041s,PASSED
+,,,,,,
+Test Cases/TestCases/Demo/Get all Communities,Chrome 70.0.3538.77,,2018-11-06 12:25:50,2018-11-06 12:25:52,2.749s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 70.0.3538.77,,2018-11-06 12:25:50,2018-11-06 12:25:50,0.008s,PASSED
+Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Community/Get All Communities),Chrome 70.0.3538.77,,2018-11-06 12:25:50,2018-11-06 12:25:50,0.015s,PASSED
+Statement - request.setHttpHeaderProperties(CustomKeywords.validations.Assertions.AddHeaders()),Chrome 70.0.3538.77,,2018-11-06 12:25:50,2018-11-06 12:25:50,0.006s,PASSED
+Statement - res = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request),Chrome 70.0.3538.77,,2018-11-06 12:25:50,2018-11-06 12:25:52,2.380s,PASSED
+verifyResponseStatusCode,Chrome 70.0.3538.77,,2018-11-06 12:25:52,2018-11-06 12:25:52,0.002s,PASSED
+containsString,Chrome 70.0.3538.77,,2018-11-06 12:25:52,2018-11-06 12:25:52,0.022s,PASSED

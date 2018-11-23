@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+demo,,,2018-11-22 18:47:59,2018-11-22 18:49:16,1m - 16.315s,ERROR
+,,,,,,
+Test Cases/DEMO/TestCases/Demo/EsbToken,,,2018-11-22 18:48:00,2018-11-22 18:48:32,31.916s,ERROR
+"Statement - recordset = CustomKeywords.dbConnectionPackage.DBConnectionKeyword.executeQuery(""select * from PERSON where FirstName="" + ""Root"")",,,2018-11-22 18:48:00,2018-11-22 18:48:32,31.521s,ERROR
+,,,,,,
+Test Cases/DEMO/TestCases/Demo/Create Community,,,2018-11-22 18:48:32,2018-11-22 18:48:54,22.682s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),,,2018-11-22 18:48:32,2018-11-22 18:48:32,0.037s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(DEMO/Library/DemoCommunity/Create Community), [""communityName"":data.getValue(""CommunityName"", 1), ""CommunityDesc"":data.getValue(""CommunityDesc"", 1), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",,,2018-11-22 18:48:32,2018-11-22 18:48:54,22.312s,FAILED
+,,,,,,
+Test Cases/DEMO/TestCases/Demo/Get all Communities,,,2018-11-22 18:48:54,2018-11-22 18:49:16,21.237s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),,,2018-11-22 18:48:54,2018-11-22 18:48:55,0.007s,PASSED
+"Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DEMO/Community/Get All Communities, [host:internal.GlobalVariable.g_URL])",,,2018-11-22 18:48:55,2018-11-22 18:48:55,0.007s,PASSED
+Statement - request.setHttpHeaderProperties(CustomKeywords.validations.Assertions.AddHeaders()),,,2018-11-22 18:48:55,2018-11-22 18:48:55,0.003s,PASSED
+Statement - res = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request),,,2018-11-22 18:48:55,2018-11-22 18:49:16,21.001s,FAILED

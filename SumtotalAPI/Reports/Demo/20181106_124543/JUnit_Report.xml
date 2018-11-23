@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo" time="41" tests="3" failures="0" errors="0">
+   <testsuite name="Demo" tests="3" failures="0" errors="0" time="41" timestamp="2018-11-06 12:45:48" hostname="AAYENDLURI - AnuradhaYend1IN.amr.smtf.ds" id="Test Suites/Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sharedkataloncode\\SumtotalAPI\\Reports\\Demo\\20181106_124543"/>
+         <property name="logFiles" value="D:\\Sharedkataloncode\\SumtotalAPI\\Reports\\Demo\\20181106_124543\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AAYENDLURI - AnuradhaYend1IN.amr.smtf.ds"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.144.222.100"/>
+         <property name="sessionId" value="c3c8245507bfb210172be8032e8c5bad"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TestCases/Demo/EsbToken" classname="Test Cases/TestCases/Demo/EsbToken" status="PASSED">
+         <system-out><![CDATA[2018-11-06 12:45:49 - [TEST_CASE][PASSED] - Test Cases/TestCases/Demo/EsbToken: Test Cases/TestCases/Demo/EsbToken
+
+2018-11-06 12:45:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/EsbToken' successfully
+
+2018-11-06 12:45:50 - [TEST_CASE][PASSED] - Test Cases/Common/EsbToken: Test Cases/Common/EsbToken
+
+2018-11-06 12:45:50 - [TEST_STEP][PASSED] - dbConnectionPackage.DBConnectionKeyword.CloseConnections: dbConnectionPackage.DBConnectionKeyword.CloseConnections is PASSED
+
+2018-11-06 12:46:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-06 12:46:00 - [MESSAGE][PASSED] - dbConnectionPackage.DBConnectionKeyword.CloseConnections is PASSED
+
+2018-11-06 12:46:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-06 12:46:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-06 12:46:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cl08sales.sumtotaldevelopment.net' successfully
+
+2018-11-06 12:46:13 - [MESSAGE][PASSED] - Navigate to 'https://cl08sales.sumtotaldevelopment.net' successfully
+
+2018-11-06 12:46:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-06 12:46:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-06 12:46:18 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte'
+
+2018-11-06 12:46:18 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte'
+
+2018-11-06 12:46:18 - [TEST_STEP][PASSED] - setText: Text 'Think|Demo' is set on object 'Object Repository/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte_1'
+
+2018-11-06 12:46:18 - [MESSAGE][PASSED] - Text 'Think|Demo' is set on object 'Object Repository/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte_1'
+
+2018-11-06 12:46:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte_2' is clicked on
+
+2018-11-06 12:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/EsbToken/Page_Sign In/input_ctl00ctl00ctl00BodyConte_2' is clicked on
+
+2018-11-06 12:46:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-06 12:46:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-06 12:46:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/EsbToken/Page_Home - SumTotal/i_fa fa-user' is present
+
+2018-11-06 12:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/EsbToken/Page_Home - SumTotal/i_fa fa-user' is present
+
+2018-11-06 12:46:24 - [TEST_STEP][PASSED] - Statement - s = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript("return document.documentElement.innerHTML;", null): Execute JavaScript 'return document.documentElement.innerHTML;' successfully
+
+2018-11-06 12:46:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.documentElement.innerHTML;' successfully
+
+2018-11-06 12:46:24 - [TEST_STEP][PASSED] - Statement - g_EsbToken = CustomKeywords.validations.Assertions.GetToken(s): validations.Assertions.GetToken is PASSED
+
+2018-11-06 12:46:25 - [MESSAGE][PASSED] - validations.Assertions.GetToken is PASSED
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - comment: esbeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93d3cuc3VtdG90YWxzeXN0ZW1zLmNvbVwvY29yZXVpIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJDTDA4X1NBTEVTX1RFU1QiLCJleHAiOjYzNjc3MTA2OTU0MTQ0OTczNywibmJmIjowLCJpYXQiOjYzNjc3MDg1MzU2MjcwMDA3OSwiYnNlc3Npb25pZCI6IjE5Yzg3MGQ2NmZkZTRjODU4ZTBiZTE1ZmFhZDA5OGY4IiwiZXVzcmlkIjpudWxsLCJldXNybiI6bnVsbCwiY3VsIjoiZW4tVVMiLCJ1c2VyaWQiOiIxIiwiZ3Vlc3RhY2NvdW50IjowLCJwZXJzb25pZCI6LTEsImlzZXh0ZXJuYWwiOmZhbHNlLCJycGtleSI6IkVMSVhIUlVJIn0.C9C3CC28F9F4FCB6DA5D197CFD9DF1CF413818AFE5FEC111BC4C18FF60F6AE0F
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - stokenindex = s.lastIndexOf("search:{") + "search:{".length() + 1: null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - etokenindex = s.lastIndexOf("social:{") + "social:{".length() + 1: null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - searchToken = s.substring(stokenindex, etokenindex): null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - g_LMJwtToken = CustomKeywords.validations.Assertions.GetToken(searchToken): validations.Assertions.GetToken is PASSED
+
+2018-11-06 12:46:25 - [MESSAGE][PASSED] - validations.Assertions.GetToken is PASSED
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - comment: esbsearcheyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93d3cuc3VtdG90YWxzeXN0ZW1zLmNvbVwvY29yZXVpIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJDTDA4X1NBTEVTX1RFU1QiLCJleHAiOjYzNjc3MTA2OTU0MTQ0OTczNywibmJmIjowLCJpYXQiOjYzNjc3MDg1MzU2MjcwMDA3OSwiYnNlc3Npb25pZCI6IjE5Yzg3MGQ2NmZkZTRjODU4ZTBiZTE1ZmFhZDA5OGY4IiwiZXVzcmlkIjpudWxsLCJldXNybiI6bnVsbCwiY3VsIjoiZW4tVVMiLCJ1c2VyaWQiOiIxIiwiZ3Vlc3RhY2NvdW50IjowLCJwZXJzb25pZCI6LTEsImlzZXh0ZXJuYWwiOmZhbHNlLCJycGtleSI6IkVMSVhIUlVJIn0.C9C3CC28F9F4FCB6DA5D197CFD9DF1CF413818AFE5FEC111BC4C18FF60F6AE0F
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - decoded = new java.lang.String(javax.xml.bind.DatatypeConverter.parseBase64Binary(internal.GlobalVariable.g_EsbToken)): null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - decoded = decoded.substring(decoded.indexOf("}{") + 1): null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - comment: ESB DECRYPTED {"iss":"http:\/\/www.sumtotalsystems.com\/coreui","sub":"admin","aud":"CL08_SALES_TEST","exp":636771069541449737,"nbf":0,"iat":636770853562700079,"bsessionid":"19c870d66fde4c858e0be15faad098f8","eusrid":null,"eusrn":null,"cul":"en-US","userid":"1","guestaccount":0,"personid":-1,"isexternal":false,"rpkey":"ELIXHRUI"}ô-Âoô^ƒ�õ÷°…ÐÅÔ!x×5ðDäQ×]A€µðQzÐ^€
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - object = jsonSlurper.parseText(decoded.toString()): null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - userId = personid: null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - userName = sub: null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - g_UserID = userId: null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - Statement - g_UserName = userName: null
+
+2018-11-06 12:46:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-06 12:46:26 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-06 12:46:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/EsbToken' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCases/Demo/Create Community" classname="Test Cases/TestCases/Demo/Create Community" status="PASSED">
+         <system-out><![CDATA[2018-11-06 12:46:26 - [TEST_CASE][PASSED] - Test Cases/TestCases/Demo/Create Community: Test Cases/TestCases/Demo/Create Community
+
+2018-11-06 12:46:26 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-06 12:46:26 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Demo/Create Community), ["communityName":data.getValue("CommunityName", 1), "CommunityDesc":data.getValue("CommunityDesc", 1), "allowDiscussionBoards":true, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Library/Demo/Create Community' successfully
+
+2018-11-06 12:46:26 - [TEST_CASE][PASSED] - Test Cases/Library/Demo/Create Community: Test Cases/Library/Demo/Create Community
+
+2018-11-06 12:46:27 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Community/Create Community, [host:internal.GlobalVariable.g_URL, CommunityName:((" + communityName) + "), CommunityDesc:((" + CommunityDesc) + "), allowDiscussionBoards:((" + allowDiscussionBoards) + "), ... ]): Finding Test Object with id 'Object Repository/Community/Create Community'
+
+2018-11-06 12:46:27 - [TEST_STEP][PASSED] - Statement - request.setHttpHeaderProperties(CustomKeywords.validations.Assertions.AddHeaders()): validations.Assertions.AddHeaders is PASSED
+
+2018-11-06 12:46:27 - [MESSAGE][PASSED] - validations.Assertions.AddHeaders is PASSED
+
+2018-11-06 12:46:27 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request): Send request successfully
+
+2018-11-06 12:46:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-06 12:46:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-06 12:46:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-06 12:46:28 - [TEST_STEP][PASSED] - Statement - return response: null
+
+2018-11-06 12:46:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Library/Demo/Create Community' successfully
+
+2018-11-06 12:46:28 - [TEST_STEP][PASSED] - Statement - CommunityID = id: validations.Assertions.GetAttribute is PASSED
+
+2018-11-06 12:46:28 - [MESSAGE][PASSED] - validations.Assertions.GetAttribute is PASSED
+
+2018-11-06 12:46:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-06 12:46:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-06 12:46:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-06 12:46:28 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCases/Demo/Get all Communities" classname="Test Cases/TestCases/Demo/Get all Communities" status="PASSED">
+         <system-out><![CDATA[2018-11-06 12:46:28 - [TEST_CASE][PASSED] - Test Cases/TestCases/Demo/Get all Communities: Test Cases/TestCases/Demo/Get all Communities
+
+2018-11-06 12:46:28 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-06 12:46:28 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Community/Get All Communities): Finding Test Object with id 'Object Repository/Community/Get All Communities'
+
+2018-11-06 12:46:28 - [TEST_STEP][PASSED] - Statement - request.setHttpHeaderProperties(CustomKeywords.validations.Assertions.AddHeaders()): validations.Assertions.AddHeaders is PASSED
+
+2018-11-06 12:46:28 - [MESSAGE][PASSED] - validations.Assertions.AddHeaders is PASSED
+
+2018-11-06 12:46:28 - [TEST_STEP][PASSED] - Statement - res = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request): Send request successfully
+
+2018-11-06 12:46:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-06 12:46:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-06 12:46:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-06 12:46:30 - [TEST_STEP][PASSED] - containsString: Check contain string successfully
+
+2018-11-06 12:46:30 - [MESSAGE][PASSED] - Check contain string successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-06 12:45:48 - [TEST_SUITE][PASSED] - Demo: Test Cases/TestCases/Demo/Get all Communities]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

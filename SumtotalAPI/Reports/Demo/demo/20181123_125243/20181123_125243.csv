@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+demo,Chrome 70.0.3538.102,,2018-11-23 12:52:45,2018-11-23 12:54:00,1m - 14.941s,FAILED
+,,,,,,
+Test Cases/DEMO/TestCases/Demo/EsbToken,Chrome 70.0.3538.102,,2018-11-23 12:52:46,2018-11-23 12:54:00,1m - 13.805s,FAILED
+callTestCase,Chrome 70.0.3538.102,,2018-11-23 12:52:46,2018-11-23 12:54:00,1m - 13.332s,FAILED
