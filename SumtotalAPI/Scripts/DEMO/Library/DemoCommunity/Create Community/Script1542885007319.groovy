@@ -50,7 +50,7 @@ def request = ((findTestObject('DEMO/Community/Create Community',
 		])) as RequestObject)
 // adding headers
 request.setHttpHeaderProperties(CustomKeywords.'validations.Assertions.AddHeaders'())
-
+// added a comment to checkin from sumtotal1971
 // Sending the request
 ResponseObject response = WS.sendRequest(request)
 
